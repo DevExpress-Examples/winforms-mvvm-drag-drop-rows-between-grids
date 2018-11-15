@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DragDropForm.cs](./CS/DragDropForm.cs) (VB: [DragDropForm.vb](./VB/DragDropForm.vb))
+* [DragAndDropHelper.cs](./CS/DragDropHelper/DragAndDropHelper.cs) (VB: [DragAndDropHelper.vb](./VB/DragDropHelper/DragAndDropHelper.vb))
+* [File.cs](./CS/Model/File.cs) (VB: [File.vb](./VB/Model/File.vb))
+* [Repository.cs](./CS/Model/Repository.cs) (VB: [Repository.vb](./VB/Model/Repository.vb))
+* [TestView.cs](./CS/View/TestView.cs) (VB: [TestView.vb](./VB/View/TestView.vb))
+* [DragDropViewModel.cs](./CS/ViewModels/DragDropViewModel.cs) (VB: [DragDropViewModel.vb](./VB/ViewModels/DragDropViewModel.vb))
+<!-- default file list end -->
 # How to implement drag-and-drop between two Grids using MVVM
 
 
