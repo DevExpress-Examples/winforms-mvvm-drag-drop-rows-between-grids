@@ -1,24 +1,19 @@
-﻿Imports System
-Imports System.Collections.Generic
 Imports System.ComponentModel
 Imports System.Drawing
-Imports System.Data
-Imports System.Linq
-Imports System.Text
 Imports System.Windows.Forms
 Imports DragDropTwoGrids.ViewModels
 
 Namespace DragDropTwoGrids.View
-    Partial Public Class TestView
+
+    Public Partial Class TestView
         Inherits UserControl
 
         Public Sub New()
             InitializeComponent()
-            Dim helper As New DragAndDropHelper(Me.gridControl1)
-            If Not mvvmContext1.IsDesignMode Then
-                InitBindings(helper)
-            End If
+            Dim helper As DragAndDropHelper = New DragAndDropHelper(gridControl1)
+            If Not mvvmContext1.IsDesignMode Then InitBindings(helper)
         End Sub
+
         Private Sub InitBindings(ByVal helper As DragAndDropHelper)
             Dim fluentAPI = mvvmContext1.OfType(Of DragDropViewModel)()
             fluentAPI.SetBinding(gridControl1, Function(c) c.DataSource, Function(x) x.Files)
