@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# WinForms Data Gris - Drag-and-drop data rows from one grid to another (MVVM)
+# WinForms Data Grid - Drag-and-drop data rows from one grid to another (MVVM)
 
 
 This example is based on the following example: [WinForms Data Grid - Drag-and-drop data rows from one grid to another](https://github.com/DevExpress-Examples/winforms-drag-drop-rows-from-one-grid-to-another). The example demonstrates how to implement drag-and-drop functionality between two grid controls using [DevExpress WinForms MVVM framework](https://docs.devexpress.com/WindowsForms/113955/build-an-application/winforms-mvvm).
