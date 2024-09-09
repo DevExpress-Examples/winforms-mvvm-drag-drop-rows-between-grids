@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
     <ProjectType>Local</ProjectType>
@@ -28,6 +28,8 @@
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -51,6 +53,7 @@
     <WarningLevel>4</WarningLevel>
     <DebugType>full</DebugType>
     <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -74,26 +77,45 @@
     <WarningLevel>4</WarningLevel>
     <DebugType>none</DebugType>
     <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Mvvm.v15.2, Version=15.2.20.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Printing.v15.2.Core">
-      <Name>DevExpress.Printing.v15.2.Core</Name>
+    <Reference Include="DevExpress.Mvvm.v24.2, Version=24.2.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v24.2.Core">
+      <Name>DevExpress.Pdf.v24.2.Core</Name>
     </Reference>
-    <Reference Include="DevExpress.Data.v15.2">
-      <Name>DevExpress.Data.v15.2</Name>
+    <Reference Include="DevExpress.Office.v24.2.Core">
+      <Name>DevExpress.Office.v24.2.Core</Name>
     </Reference>
-    <Reference Include="DevExpress.Utils.v15.2">
-      <Name>DevExpress.Utils.v15.2</Name>
+    <Reference Include="DevExpress.RichEdit.v24.2.Core">
+      <Name>DevExpress.RichEdit.v24.2.Core</Name>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v15.2">
-      <Name>DevExpress.XtraEditors.v15.2</Name>
+    <Reference Include="DevExpress.RichEdit.v24.2.Export">
+      <Name>DevExpress.RichEdit.v24.2.Export</Name>
     </Reference>
-    <Reference Include="DevExpress.XtraPrinting.v15.2">
-      <Name>DevExpress.XtraPrinting.v15.2</Name>
+    <Reference Include="DevExpress.Printing.v24.2.Core">
+      <Name>DevExpress.Printing.v24.2.Core</Name>
     </Reference>
-    <Reference Include="DevExpress.XtraGrid.v15.2">
-      <Name>DevExpress.XtraGrid.v15.2</Name>
+    <Reference Include="DevExpress.Drawing.v24.2">
+      <Name>DevExpress.Drawing.v24.2</Name>
+    </Reference>
+    <Reference Include="DevExpress.Data.v24.2">
+      <Name>DevExpress.Data.v24.2</Name>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v24.2">
+      <Name>DevExpress.Data.Desktop.v24.2</Name>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v24.2">
+      <Name>DevExpress.Utils.v24.2</Name>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v24.2">
+      <Name>DevExpress.XtraEditors.v24.2</Name>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v24.2">
+      <Name>DevExpress.XtraPrinting.v24.2</Name>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v24.2">
+      <Name>DevExpress.XtraGrid.v24.2</Name>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
@@ -140,7 +162,9 @@
       <DependentUpon>TestView.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <PropertyGroup>
     <PreBuildEvent>
