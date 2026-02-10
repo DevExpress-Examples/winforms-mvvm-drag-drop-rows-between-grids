@@ -19,7 +19,7 @@ Namespace DragDropTwoGrids.View
             MyBase.Dispose(disposing)
         End Sub
 
-'#Region "Component Designer generated code"
+#Region "Component Designer generated code"
         ''' <summary> 
         ''' Required method for Designer support - do not modify 
         ''' the contents of this method with the code editor.
@@ -67,7 +67,7 @@ Namespace DragDropTwoGrids.View
             Me.ResumeLayout(False)
         End Sub
 
-'#End Region
+#End Region
         Private gridControl1 As DevExpress.XtraGrid.GridControl
 
         Private gridView1 As DevExpress.XtraGrid.Views.Grid.GridView

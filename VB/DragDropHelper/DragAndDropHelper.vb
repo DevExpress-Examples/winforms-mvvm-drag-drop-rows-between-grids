@@ -27,9 +27,7 @@ Namespace DragDropTwoGrids
             End RemoveHandler
 
             RaiseEvent(ByVal sender As Object, ByVal e As MyDragAndDropEventArgs)
-                If dropField IsNot Nothing Then
-                    dropField(sender, e)
-                End If
+                dropField ?(sender, e)
             End RaiseEvent
         End Event
 
@@ -45,9 +43,7 @@ Namespace DragDropTwoGrids
             End RemoveHandler
 
             RaiseEvent(ByVal sender As Object, ByVal e As EventArgs)
-                If removeRecordField IsNot Nothing Then
-                    removeRecordField(sender, e)
-                End If
+                removeRecordField ?(sender, e)
             End RaiseEvent
         End Event
 

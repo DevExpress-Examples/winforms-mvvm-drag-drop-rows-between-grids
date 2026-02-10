@@ -19,7 +19,7 @@ Namespace DragDropTwoGrids
             MyBase.Dispose(disposing)
         End Sub
 
-'#Region "Windows Form Designer generated code"
+#Region "Windows Form Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
@@ -75,7 +75,7 @@ Namespace DragDropTwoGrids
             Me.ResumeLayout(False)
         End Sub
 
-'#End Region
+#End Region
         Private splitContainerControl1 As DevExpress.XtraEditors.SplitContainerControl
 
         Private testView1 As DragDropTwoGrids.View.TestView
