@@ -28,7 +28,7 @@ To implement drag and drop using the MVVM pattern, create a helper class (`DragA
 * [WinForms MVVM](https://docs.devexpress.com/WindowsForms/113955/build-an-application/winforms-mvvm)
 * [WinForms Data Grid - Drag-and-drop data rows from one grid to another](https://github.com/DevExpress-Examples/winforms-drag-drop-rows-from-one-grid-to-another)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-mvvm-drag-drop-rows-between-grids&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-mvvm-drag-drop-rows-between-grids&~~~was_helpful=no)
 
